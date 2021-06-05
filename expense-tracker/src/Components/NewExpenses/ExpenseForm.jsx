@@ -33,6 +33,7 @@ const ExpenseForm = ({ addExpense, stopEditing }) => {
           <input
             type="text"
             name="enteredTitle"
+            placeholder="Enter Title "
             value={expense.enteredTitle}
             onChange={handleChange}
           />
@@ -42,8 +43,9 @@ const ExpenseForm = ({ addExpense, stopEditing }) => {
           <input
             type="number"
             name="enteredAmount"
-            min="0.01"
-            step="0.01"
+            placeholder="Amount in Rs."
+            min="0"
+            step="1"
             value={expense.enteredAmount}
             onChange={handleChange}
           />

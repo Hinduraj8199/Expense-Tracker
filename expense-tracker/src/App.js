@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import React from "react";
 import "./App.css";
 import NewExpenses from "./Components/NewExpenses/NewExpenses";
@@ -33,8 +32,8 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <h2>Expense-Tracker</h2>
+    <div className="main">
+      <h1>Expense-Tracker</h1>
       <NewExpenses addExpense={addExpense} />
       <Expenses expensesList={expensesList} />
     </div>
