@@ -18,8 +18,8 @@ Inside expense-tracker install with npm
 
 **Homepage**
 
-<img width="1440" alt="Homepage" src="https://user-images.githubusercontent.com/77038684/127148997-aad576df-d703-40ee-a9bf-2961c9ca70ca.png">
+<img width="1440" alt="Homepage" src="https://user-images.githubusercontent.com/77038684/127149591-46d46727-0084-429d-bb24-dcade770b8b2.png">
 
 ## Tech Stack
 
-**Client:** React
+**React**
