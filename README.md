@@ -11,7 +11,7 @@ https://expeense-tracker.netlify.app/
 Inside expense-tracker install with npm
 
 ```bash
-  npm install
+  npm install then npm start
 ```
 
 ## Screenshots
